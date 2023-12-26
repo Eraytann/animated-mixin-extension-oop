@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_202/ImageLearn/animated_learn_view.dart';
+import 'package:flutter_202/OopLearn/oop_learn_view.dart';
 
 void main() => runApp(const MyApp());
 
@@ -14,7 +14,7 @@ class MyApp extends StatelessWidget {
         appBar: AppBar(
           title: const Text('Material App Bar'),
         ),
-        body: const AnimatedLearnView(),
+        body: const OOPLearnView(),
       ),
     );
   }
